@@ -15,6 +15,7 @@
 		F2AFC9D11F413316004ED659 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = F2AFC9CF1F413316004ED659 /* LaunchScreen.storyboard */; };
 		F2AFC9DC1F4133F9004ED659 /* UIViewController+Reveal.m in Sources */ = {isa = PBXBuildFile; fileRef = F2AFC9DA1F4133F9004ED659 /* UIViewController+Reveal.m */; };
 		F2AFC9DF1F4137C9004ED659 /* UIButton+Block.m in Sources */ = {isa = PBXBuildFile; fileRef = F2AFC9DD1F4137C9004ED659 /* UIButton+Block.m */; };
+		F2AFC9E21F413ABA004ED659 /* MSGBus.m in Sources */ = {isa = PBXBuildFile; fileRef = F2AFC9E11F413ABA004ED659 /* MSGBus.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -32,6 +33,8 @@
 		F2AFC9DB1F4133F9004ED659 /* UIViewController+Reveal.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "UIViewController+Reveal.h"; sourceTree = "<group>"; };
 		F2AFC9DD1F4137C9004ED659 /* UIButton+Block.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "UIButton+Block.m"; sourceTree = "<group>"; };
 		F2AFC9DE1F4137C9004ED659 /* UIButton+Block.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "UIButton+Block.h"; sourceTree = "<group>"; };
+		F2AFC9E01F413ABA004ED659 /* MSGBus.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MSGBus.h; sourceTree = "<group>"; };
+		F2AFC9E11F413ABA004ED659 /* MSGBus.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MSGBus.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -84,6 +87,8 @@
 		F2AFC9D81F413349004ED659 /* Tools */ = {
 			isa = PBXGroup;
 			children = (
+				F2AFC9E01F413ABA004ED659 /* MSGBus.h */,
+				F2AFC9E11F413ABA004ED659 /* MSGBus.m */,
 				F2AFC9DE1F4137C9004ED659 /* UIButton+Block.h */,
 				F2AFC9DD1F4137C9004ED659 /* UIButton+Block.m */,
 				F2AFC9DA1F4133F9004ED659 /* UIViewController+Reveal.m */,
@@ -181,6 +186,7 @@
 				F2AFC9DF1F4137C9004ED659 /* UIButton+Block.m in Sources */,
 				F2AFC9C61F413316004ED659 /* AppDelegate.m in Sources */,
 				F2AFC9C31F413316004ED659 /* main.m in Sources */,
+				F2AFC9E21F413ABA004ED659 /* MSGBus.m in Sources */,
 				F2AFC9DC1F4133F9004ED659 /* UIViewController+Reveal.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
