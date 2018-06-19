@@ -7,6 +7,10 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		5ADF994320D8B1E700DFADD6 /* UIAlertController+Quick.m in Sources */ = {isa = PBXBuildFile; fileRef = 5ADF993C20D8B1E700DFADD6 /* UIAlertController+Quick.m */; };
+		5ADF994420D8B1E700DFADD6 /* RightImageButton.m in Sources */ = {isa = PBXBuildFile; fileRef = 5ADF993D20D8B1E700DFADD6 /* RightImageButton.m */; };
+		5ADF994520D8B1E700DFADD6 /* InsetsLabel.m in Sources */ = {isa = PBXBuildFile; fileRef = 5ADF993F20D8B1E700DFADD6 /* InsetsLabel.m */; };
+		5ADF994620D8B1E700DFADD6 /* JTProgressWebView.m in Sources */ = {isa = PBXBuildFile; fileRef = 5ADF994020D8B1E700DFADD6 /* JTProgressWebView.m */; };
 		F2AFC9C31F413316004ED659 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = F2AFC9C21F413316004ED659 /* main.m */; };
 		F2AFC9C61F413316004ED659 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = F2AFC9C51F413316004ED659 /* AppDelegate.m */; };
 		F2AFC9C91F413316004ED659 /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = F2AFC9C81F413316004ED659 /* ViewController.m */; };
@@ -19,6 +23,14 @@
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		5ADF993B20D8B1E600DFADD6 /* UIAlertController+Quick.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "UIAlertController+Quick.h"; sourceTree = "<group>"; };
+		5ADF993C20D8B1E700DFADD6 /* UIAlertController+Quick.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "UIAlertController+Quick.m"; sourceTree = "<group>"; };
+		5ADF993D20D8B1E700DFADD6 /* RightImageButton.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = RightImageButton.m; sourceTree = "<group>"; };
+		5ADF993E20D8B1E700DFADD6 /* JTProgressWebView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = JTProgressWebView.h; sourceTree = "<group>"; };
+		5ADF993F20D8B1E700DFADD6 /* InsetsLabel.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = InsetsLabel.m; sourceTree = "<group>"; };
+		5ADF994020D8B1E700DFADD6 /* JTProgressWebView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = JTProgressWebView.m; sourceTree = "<group>"; };
+		5ADF994120D8B1E700DFADD6 /* InsetsLabel.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = InsetsLabel.h; sourceTree = "<group>"; };
+		5ADF994220D8B1E700DFADD6 /* RightImageButton.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = RightImageButton.h; sourceTree = "<group>"; };
 		F2AFC9BE1F413316004ED659 /* JTToolsOC.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = JTToolsOC.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		F2AFC9C21F413316004ED659 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
 		F2AFC9C41F413316004ED659 /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
@@ -87,6 +99,14 @@
 		F2AFC9D81F413349004ED659 /* Tools */ = {
 			isa = PBXGroup;
 			children = (
+				5ADF994120D8B1E700DFADD6 /* InsetsLabel.h */,
+				5ADF993F20D8B1E700DFADD6 /* InsetsLabel.m */,
+				5ADF994220D8B1E700DFADD6 /* RightImageButton.h */,
+				5ADF993D20D8B1E700DFADD6 /* RightImageButton.m */,
+				5ADF993B20D8B1E600DFADD6 /* UIAlertController+Quick.h */,
+				5ADF993C20D8B1E700DFADD6 /* UIAlertController+Quick.m */,
+				5ADF993E20D8B1E700DFADD6 /* JTProgressWebView.h */,
+				5ADF994020D8B1E700DFADD6 /* JTProgressWebView.m */,
 				F2AFC9E01F413ABA004ED659 /* MSGBus.h */,
 				F2AFC9E11F413ABA004ED659 /* MSGBus.m */,
 				F2AFC9DE1F4137C9004ED659 /* UIButton+Block.h */,
@@ -183,11 +203,15 @@
 			buildActionMask = 2147483647;
 			files = (
 				F2AFC9C91F413316004ED659 /* ViewController.m in Sources */,
+				5ADF994320D8B1E700DFADD6 /* UIAlertController+Quick.m in Sources */,
+				5ADF994420D8B1E700DFADD6 /* RightImageButton.m in Sources */,
+				5ADF994620D8B1E700DFADD6 /* JTProgressWebView.m in Sources */,
 				F2AFC9DF1F4137C9004ED659 /* UIButton+Block.m in Sources */,
 				F2AFC9C61F413316004ED659 /* AppDelegate.m in Sources */,
 				F2AFC9C31F413316004ED659 /* main.m in Sources */,
 				F2AFC9E21F413ABA004ED659 /* MSGBus.m in Sources */,
 				F2AFC9DC1F4133F9004ED659 /* UIViewController+Reveal.m in Sources */,
+				5ADF994520D8B1E700DFADD6 /* InsetsLabel.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
